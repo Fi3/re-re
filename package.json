@@ -1,11 +1,19 @@
 {
-  "name": "prov-re-re",
+  "name": "RE-RE",
   "version": "1.0.0",
-  "description": "",
+  "description": "Collection of reusable HOC (react)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/babel-node --presets=es2015,react test/helpers.js  --source-maps"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "fmerli1@gmail.com",
+  "license": "ISC",
+  "repository": "https://github.com/Fi3/re-re.git",
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "ramda": "^0.24.1",
+    "tape": "^4.8.0"
+  }
 }
